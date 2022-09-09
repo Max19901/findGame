@@ -27,7 +27,7 @@
 
   &__items {
     font-size: $font-size-16;
-    padding: $padding-16 / 2;
+    padding: calc($padding-16 / 2);
     display: flex;
     align-items: center;
     justify-content: space-between;
