@@ -1,0 +1,16 @@
+@import "variables";
+
+.button {
+  @include background-center();
+  background-image: url(/assets/images/woods.png);
+
+  &:hover, .active {
+    @include background-center();
+    background-image: url(/assets/images/woods_active.png);
+  }
+
+  button {
+    width: 120px;
+    border-radius: 24px;
+  }
+}

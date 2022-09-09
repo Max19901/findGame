@@ -1,0 +1,48 @@
+@import 'variables';
+
+.dashboard {
+  max-width: $screen-with-lg;
+  margin-top: $margin-16 * 2;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  &__items {
+    @include background-center();
+    background-image: url(/assets/images/dashboard_item_backgroud.png);
+    width: calc($screen-with-lg / 8);
+    height: calc($screen-with-lg / 8);
+    flex-basis: calc($screen-with-lg / 8);
+    cursor: pointer;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .dashboard__items {
+    flex-basis: calc($screen-with-lg / 9)
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .dashboard__items {
+    flex-basis: calc($screen-with-md / 8)
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .dashboard__items {
+    flex-basis: calc($screen-with-md / 10)
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .dashboard__items {
+    flex-basis: 70px;
+  }
+}

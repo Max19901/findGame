@@ -1,0 +1,8 @@
+<div class="button">
+  <button mat-button
+          [disabled]="isDisabled"
+          [ngClass]="{'active': isDisabled}"
+          (click)="outputHandler(typeButton)">
+    {{textButton}}
+  </button>
+</div>

@@ -1,0 +1,11 @@
+<div class="actions">
+  <app-button
+    [typeButton]="buttonsType.ACCEPT"
+    [isDisabled]="isHandleStartGame"
+    (clickHandler)="actionHandler($event)"
+    [textButton]="'Start'"></app-button>
+  <app-button
+    [typeButton]="buttonsType.DECLINE"
+    (clickHandler)="actionHandler($event)"
+    [textButton]="'Stop'"></app-button>
+</div>

@@ -1,0 +1,12 @@
+<div class="results"
+     [ngClass]="{'show': isShowResult}">
+  <ng-container *ngIf="resultData">
+    <div class="results__wrap">
+      <div class="results__items"
+           *ngFor="let result of resultData | sortBy; let i = index"
+           [ngClass]="{'leader': i === 0}">
+        <span>{{i+1}}.</span> {{result | formatTime}}
+      </div>
+    </div>
+  </ng-container>
+</div>

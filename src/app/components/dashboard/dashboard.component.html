@@ -1,0 +1,9 @@
+<div class="dashboard">
+  <ng-container *ngFor="let card of cards">
+    <div class="dashboard__items"
+         (click)="onHandleCard(card)"
+         [@rotatedState]="card.rotate">
+      <img [@fade]="card.rotate" draggable="false" src="{{card.image}}">
+    </div>
+  </ng-container>
+</div>

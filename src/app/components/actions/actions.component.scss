@@ -1,0 +1,15 @@
+@import "variables";
+
+.actions {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+  app-button {
+    margin-right: $margin-16;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import 'variables';
+
+.timer {
+  @include background-center();
+  background-image: url(/assets/images/background_timer.png);
+  padding: $padding-16;
+  font-size: $font-size-24;
+  width: 150px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-light-blue;
+  margin-top: $margin-16;
+}
