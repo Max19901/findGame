@@ -2,11 +2,11 @@
 
 .button {
   @include background-center();
-  background-image: url(/assets/images/woods.png);
+  background-image: url(../../../../../assets/images/woods.png);
 
   &:hover, .active {
     @include background-center();
-    background-image: url(/assets/images/woods_active.png);
+    background-image: url(../../../../../assets/images/woods_active.png);
   }
 
   button {

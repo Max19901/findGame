@@ -2,7 +2,7 @@
 
 .timer {
   @include background-center();
-  background-image: url(/assets/images/background_timer.png);
+  background-image: url(../../../assets/images/background_timer.png);
   padding: $padding-16;
   font-size: $font-size-24;
   width: 150px;

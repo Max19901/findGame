@@ -11,7 +11,7 @@
 
   &__items {
     @include background-center();
-    background-image: url(/assets/images/dashboard_item_backgroud.png);
+    background-image: url(../../../assets/images/dashboard_item_backgroud.png);
     width: calc($screen-with-lg / 8);
     height: calc($screen-with-lg / 8);
     flex-basis: calc($screen-with-lg / 8);

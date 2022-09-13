@@ -2,7 +2,7 @@
 
 .results {
   @include background-center();
-  background-image: url(/assets/images/background_result.png);
+  background-image: url('../../../assets/images/background_result.png');
   width: 250px;
   height: 250px;
   position: fixed;
@@ -45,7 +45,7 @@
       &:after {
         content: '';
         @include background-center();
-        background-image: url(/assets/images/best.png);
+        background-image: url(../../../assets/images/best.png);
         width: 25px;
         height: 25px;
         position: absolute;
