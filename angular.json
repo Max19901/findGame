@@ -28,6 +28,11 @@
                 "glob": "**/*",
                 "input": "src/assets",
                 "output": "assets"
+              },
+              {
+                "glob": "*.wav",
+                "input": "src/assets/audio",
+                "output": "assets"
               }
             ],
             "styles": [
