@@ -4,7 +4,7 @@ export enum AppEnum {
 }
 
 export enum SoundEnum {
-  MATCH = './audio/matching.wav',
-  WIN = './audio/win.wav',
+  MATCH = './assets/audio/matching.wav',
+  WIN = './assets/audio/win.wav',
   FAIL = './assets/audio/fail.wav'
 }
