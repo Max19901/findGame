@@ -25,6 +25,7 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
+  "include": ["src/**"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
